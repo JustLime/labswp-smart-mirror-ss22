@@ -1,10 +1,10 @@
-# LabSWP - Gruppe 4 - Smart Mirror
+# LabSWP - Smart Mirror
 
 
 
 ## Getting started
 
-To make a fresh install for the raspberry please follow the instruction in [rasperry README](https://git.it.hs-heilbronn.de/cdeme/labswp-gruppe-4-smart-mirror/-/tree/main/raspberry)
+To make a fresh install for the raspberry please follow the instruction in [raspberry README](https://git.it.hs-heilbronn.de/cdeme/labswp-gruppe-4-smart-mirror/-/tree/main/raspberry)
 
 ## Start the App on your device
 
