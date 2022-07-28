@@ -1,0 +1,70 @@
+/* Stylesheet for default styles */
+
+/* Import for font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+/* Default brackground for mirror */
+body {
+  background-color: black;
+  color: white;
+}
+/* Fixed grid size and size */
+.container {
+  display: grid;
+  width: 1080px;
+  height: 1920px;
+  justify-content: stretch;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+}
+
+/* Default style for clock grid */
+.clock {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Default style for weather*/
+.weather {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Style for text on weather widget */
+.weatherText {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+/* Style for icon for weather widget */
+.weatherIcon {
+    justify-self: stretch;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+/* Default style for news */
+.news {
+  display: grid;
+  font-family: "Roboto", sans-serif;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/* Default style for date grid */
+.calendar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
